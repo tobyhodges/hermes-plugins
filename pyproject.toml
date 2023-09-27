@@ -19,3 +19,12 @@ repository = "https://github.com/tobyhodges/hermes-plugins"
 python = "^3.10"
 hermes = { git = "https://github.com/hermes-hmc/workflow.git", branch = "develop" }
 
+
+# [tool.poetry.plugins."hermes.harvest"]
+# amy = "carpentries_hermes_plugins.harvest_amy:harvest_amy"
+#
+# [tool.poetry.plugins."hermes.preprocess"]
+# amy = "carpentries_hermes_plugins.process_amy:process_amy"
+
+[tool.poetry.plugins."hermes.deposit.map"]
+trainingmaterial_jsonld = "carpentries_hermes_plugins.deposit_trainingmaterial_jsonld:export"
