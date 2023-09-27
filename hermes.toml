@@ -9,6 +9,3 @@ mapping = "trainingmaterial_jsonld"
 
 [deposit.trainingmaterial_jsonld]
 output = "test_output.json"
-
-[postprocess]
-execute = [ "config_record_id" ]
