@@ -17,5 +17,5 @@ repository = "https://github.com/tobyhodges/hermes-plugins"
 [tool.poetry.dependencies]
 
 python = "^3.10"
-hermes = { git = "https://github.com/hermes-hmc/workflow.git" }
+hermes = { git = "https://github.com/hermes-hmc/workflow.git", branch = "develop" }
 
