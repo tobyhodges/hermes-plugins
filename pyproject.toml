@@ -1,6 +1,6 @@
 [tool.poetry]
 
-name = "carpentries-hermes-plugins"
+name = "carpentries_hermes_plugins"
 
 version = "0.0.1"
 
