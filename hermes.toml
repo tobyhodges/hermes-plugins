@@ -5,6 +5,7 @@ from = [ "git", "cff" ]
 validate = false
 
 [deposit]
+target = "invenio"
 mapping = "trainingmaterial_jsonld"
 
 [deposit.trainingmaterial_jsonld]
