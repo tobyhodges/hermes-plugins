@@ -1,2 +1,4 @@
 *.egg-info
 .hermes*
+dist/*
+src/carpentries_hermes_plugins/__pycache__/*
