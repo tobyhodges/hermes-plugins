@@ -5,7 +5,8 @@ from = [ "git", "cff" ]
 validate = false
 
 [deposit]
-mapping = "trainingmaterial_jsonld"
+target = "file"
+publish = "trainingmaterial_jsonld"
 
 [deposit.trainingmaterial_jsonld]
 output = "test_output.json"
