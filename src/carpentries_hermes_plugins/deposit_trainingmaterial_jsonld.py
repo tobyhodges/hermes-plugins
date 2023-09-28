@@ -6,6 +6,7 @@ A plugin to HERMES.
 
 import click
 import json
+import logging
 from hermes.model.context import CodeMetaContext
 from hermes import config
 from hermes.error import MisconfigurationError
@@ -20,7 +21,7 @@ def export(click_ctx: click.Context, ctx: CodeMetaContext):
     output_json = invenio_config.get("output")
     if output_json is None:
         raise MisconfigurationError("deposit.trainingmaterial_jsonld.output is not configured")
-
+    logging.info(f'depositing JSON-LD output in {output_json}.')
     title = ctx['title']
     license = ctx['license']
 
